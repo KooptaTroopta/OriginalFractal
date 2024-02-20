@@ -1,4 +1,4 @@
-int bola = 5;
+int bola = 1;
 int hola = 1;
 public void setup() {
   size(1000,1000);
@@ -9,9 +9,9 @@ public void draw() {
   fractal(500,500,600,10,0);
 }
 public void mouseMoved() {
-  bola = (mouseX-200)*95/600+5;
+  bola = (mouseX-200)*95/600+1;
   if (mouseX<200)
-  bola = 5;
+  bola = 1;
   if (mouseX>800)
   bola = 100;
 }
